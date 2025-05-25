@@ -1,0 +1,79 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1748136153
+export_presets.cfg::TextFile::-1::1748134938::0::1::::<><>::
+icon.svg::CompressedTexture2D::5918780951409992259::1748134938::1748135079::1::::<><>::
+minion.tscn::PackedScene::8512045658675071347::1748134938::0::1::::<><>::res://Scripts/minion.gd<>uid://cp2pef442sm53::::res://Undead executioner puppet/png/summonAppear.png<>uid://pxm4ii3d5aun::::res://Undead executioner puppet/png/summonIdle.png
+README.md::TextFile::-1::1748134938::0::1::::<><>::
+::res://assets/::1748135079
+font.ttf::FontFile::8091531447367090055::1748134953::1748135078::1::::<><>::
+Heart&ManaUi.png::CompressedTexture2D::5736791745236315745::1748134953::1748135079::1::::<><>::
+menu-frame-9patch.png::CompressedTexture2D::9196626143958073495::1748134953::1748135079::1::::<><>::
+::res://assets/music/::1748135078
+04-all-of-us-eircskiff.mp3::AudioStreamMP3::3697064781373800999::1748134953::1748135078::1::::<><>::
+::res://assets/sfx/::1748135079
+enemy-defeated.wav::AudioStreamWAV::1073040575562937254::1748134953::1748135079::1::::<><>::
+enemyhit.wav::AudioStreamWAV::1789563657169241967::1748134953::1748135079::1::::<><>::
+gameover.wav::AudioStreamWAV::714354983673446324::1748134953::1748135079::1::::<><>::
+interact.wav::AudioStreamWAV::1380869184975128101::1748134954::1748135079::1::::<><>::
+player-hit.wav::AudioStreamWAV::557222568384326119::1748134954::1748135079::1::::<><>::
+sword.wav::AudioStreamWAV::448808256961286533::1748134954::1748135079::1::::<><>::
+tada.wav::AudioStreamWAV::7636503060607986482::1748134954::1748135079::1::::<><>::
+::res://assets/sprites/::1748135079
+Asset License.txt::TextFile::-1::1748134954::0::1::::<><>::
+Hero 01 32.png::CompressedTexture2D::5405452917317773287::1748134954::1748135079::1::::<><>::
+hero.png::CompressedTexture2D::1877387598806854748::1748134954::1748135079::1::::<><>::
+Minecart 01 32.png::CompressedTexture2D::7967001501527610649::1748134954::1748135079::1::::<><>::
+Slime 01 32.png::CompressedTexture2D::5071923123163117472::1748134954::1748135079::1::::<><>::
+Sword 01 32.png::CompressedTexture2D::5225722392319394476::1748134954::1748135079::1::::<><>::
+::res://assets/tilesets/::1748135079
+Asset License.txt::TextFile::-1::1748134954::0::1::::<><>::
+Solaria Demo Update 01 32.png::CompressedTexture2D::4696286070303224385::1748134954::1748135079::1::::<><>::
+::res://Prefabs/::1748136122
+chest.tscn::PackedScene::412931916170690641::1748135381::0::1::::<><>::res://Scripts/chest.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png
+follow.gd::GDScript::-1::1748134974::0::1::::<>State<>::
+player.tscn::PackedScene::1431149059298901806::1748135380::0::1::::<><>::uid://cjapaw5jxhpc6::::res://assets/sprites/Hero 01 32.png<>uid://cgpm5cjcrf2tc::::res://assets/sprites/Sword 01 32.png<>uid://gnn2ohsw4h6d::::res://assets/sfx/sword.wav<>uid://f5a6tfb04v2p::::res://Prefabs/chest.tscn
+Portal.tscn::PackedScene::5471751915248611369::1748134975::0::1::::<><>::res://Scripts/portal.gd
+reaper.gd::GDScript::-1::1748134975::0::1::::<>CharacterBody2D<>::
+reaper.tscn::PackedScene::817941731919364682::1748135381::0::1::::<><>::res://Prefabs/reaper.gd<>uid://bwt3df1rf0vpm::::res://Undead executioner puppet/png/attacking.png<>uid://cm7e0dpxy77dn::::res://Undead executioner puppet/png/death.png<>uid://bdcurmd4ltw3l::::res://Undead executioner puppet/png/idle.png<>uid://dh8mkwymmvb6v::::res://Undead executioner puppet/png/summon.png<>uid://bklrrvp877m55::::res://Undead executioner puppet/png/skill1.png<>res://Scripts/finite_state_machine.gd<>res://Scripts/idle.gd<>res://Prefabs/follow.gd<>res://Scripts/attack.gd<>res://Scripts/teleport.gd<>res://Scripts/death.gd
+::res://Scenes/::1748135980
+chapter_1.tscn::PackedScene::7143405834539091121::1748135380::0::1::::<><>::res://Scripts/chapter_1.gd<>uid://uni20gwekni1::::res://Prefabs/player.tscn<>res://Scripts/player1.gd<>res://Scripts/player2.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png<>uid://cqldps5terrkd::::res://icon.svg<>res://Scripts/ghost.gd<>uid://cei43k0ha2tcy::::res://assets/sprites/Slime 01 32.png<>uid://bsw5d8a01xdxv::::res://assets/music/04-all-of-us-eircskiff.mp3<>uid://kgbk7qiha5vc::::res://assets/sfx/gameover.wav<>res://Scripts/hp.gd<>uid://cny7ee5xxvckn::::res://assets/Heart&ManaUi.png<>res://Scripts/game_manager.gd<>uid://f5a6tfb04v2p::::res://Prefabs/chest.tscn<>uid://cj7s7psbj7adt::::res://Prefabs/Portal.tscn
+chapter_2.tscn::PackedScene::8300641439099051310::1748135381::0::1::::<><>::res://Scripts/chapter_2.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png<>uid://uni20gwekni1::::res://Prefabs/player.tscn<>res://Scripts/player1_1.gd<>uid://lwhm7h3b3epm::::res://Prefabs/reaper.tscn<>res://Scripts/player2_2.gd<>res://Scripts/hp.gd<>uid://cny7ee5xxvckn::::res://assets/Heart&ManaUi.png
+chapter_3.tscn::PackedScene::2275502483052930414::1748135309::0::1::::<><>::res://Scripts/chapter_3.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png<>uid://uni20gwekni1::::res://Prefabs/player.tscn<>res://Scripts/PlayerX.gd<>uid://cny7ee5xxvckn::::res://assets/Heart&ManaUi.png
+menu.tscn::PackedScene::3203729237547513856::1748135380::0::1::::<><>::res://Scripts/menu.gd
+::res://Scripts/::1748135533
+attack.gd::GDScript::-1::1748134993::0::1::::<>State<>::
+chapter_1.gd::GDScript::-1::1748134993::0::1::::<>Node2D<>::
+chapter_2.gd::GDScript::-1::1748134993::0::1::::<>Node2D<>::
+chapter_3.gd::GDScript::-1::1748134993::0::1::::<>Node2D<>::
+chest.gd::GDScript::-1::1748134993::0::1::::Chest<>StaticBody2D<>::
+death.gd::GDScript::-1::1748134993::0::1::::<>State<>::
+finite_state_machine.gd::GDScript::-1::1748134993::0::1::::<>Node2D<>::
+game_manager.gd::GDScript::-1::1748134993::0::1::::<>Node<>::
+ghost.gd::GDScript::-1::1748134993::0::1::::Ghost<>CharacterBody2D<>::
+hp.gd::GDScript::-1::1748134993::0::1::::<>HBoxContainer<>::
+hp_2.gd::GDScript::-1::1748134993::0::1::::<>HBoxContainer<>::
+hurt_box.gd::GDScript::-1::1748134993::0::1::::<>Area2D<>::
+idle.gd::GDScript::-1::1748134994::0::1::::<>State<>::
+menu.gd::GDScript::-1::1748134994::0::1::::<>Node2D<>::
+minion.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+player1.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+player1_1.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+player2.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+player2_2.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+PlayerX.gd::GDScript::-1::1748134994::0::1::::<>CharacterBody2D<>::
+portal.gd::GDScript::-1::1748134994::0::1::::<>Area2D<>::
+spawn_minion_1.gd::GDScript::-1::1748134994::0::1::::<>State<>::
+state.gd::GDScript::-1::1748134994::0::1::::State<>Node2D<>::
+States.gd::GDScript::-1::1748134994::0::1::::State<>Node2D<>::
+teleport.gd::GDScript::-1::1748134994::0::1::::<>State<>::
+::res://Undead executioner puppet/::1748134994
+::res://Undead executioner puppet/png/::1748135079
+attacking.png::CompressedTexture2D::3971504157797881750::1748134994::1748135079::1::::<><>::
+death.png::CompressedTexture2D::5681455273811690131::1748134994::1748135079::1::::<><>::
+idle2.png::CompressedTexture2D::2631377214578445313::1748134994::1748135079::1::::<><>::
+idle.png::CompressedTexture2D::2602361304714745411::1748134994::1748135079::1::::<><>::
+skill1.png::CompressedTexture2D::3112080950447319210::1748134994::1748135079::1::::<><>::
+summon.png::CompressedTexture2D::7719456077432846879::1748134994::1748135079::1::::<><>::
+summonAppear.png::CompressedTexture2D::5882330428153927912::1748134994::1748135079::1::::<><>::
+summonDeath.png::CompressedTexture2D::171352967490969259::1748134994::1748135079::1::::<><>::
+summonIdle.png::CompressedTexture2D::1101094168672917333::1748134994::1748135079::1::::<><>::

@@ -1,0 +1,13 @@
+AnimatedSprite2D
+CollisionShape2D
+CharacterBody2D
+Button
+Label
+CanvasLayer
+Camera2D
+TextureRect
+HBoxContainer
+AudioStreamPlayer2D
+Area2D
+Timer
+ShapeCast2D
